@@ -77,47 +77,32 @@ inquirer
     var badging = licenseImage.get(license);
 
     var fileContents = 
-    `# ${title} ${badging}
+`# ${title} ${badging}
+${description}
+## Table of Contents
+[Installing/Dependencies](#installing/dependencies)  
 
-    ${description}
+[Walkthrough/Usage Information](#walkthrough/usage-information)  
 
-    ## Table of Contents
+[Contributing to the README.md Generator](#contributing-to-the-readme.md-generator)  
 
-    [Installing/Dependencies](#installing/dependencies)
+[Test Instructions](#test-instructions)  
 
-    [Walkthrough/Usage Information](#installing/dependencies)
+[Author](#author)  
 
-    [Contributing to the README.md Generator](#contributing-to-the-readme.md-generator)
-
-    [Test Instructions](#test-instructions)
-
-    [Author](#author)
-
-    [License](#license)
-
-    ## Installing/Dependencies
-    
-    \`\`\`${installation}\`\`\`
-
-    ## Walkthrough/Usage Information
-
-    ${usage}
-
-    ## Contributing to the README.md Generator
-
-    ${contribution}
-
-    ## Test Instructions
-
-    ${test}
-
-    ## Author
-
-    [${name}](https://github.com/${username}) -- You can reach me anytime for questions or collaboration at ${email}.
-
-    ## License
-
-    This project is licensed under [${license}](LICENSE) - 2020 Laura Baumann`;
+[License](#license)
+## Installing/Dependencies
+\`\`\`${installation}\`\`\`
+## Walkthrough/Usage Information
+${usage}
+## Contributing to the README.md Generator
+${contribution}
+## Test Instructions
+${test}
+## Author
+[${name}](https://github.com/${username}) -- You can reach me anytime for questions or collaboration at ${email}.
+## License
+This project is licensed under [${license}](LICENSE) - 2020 Laura Baumann`;
 
     fs.writeFile('README.md', fileContents, (error) =>
     error ? console.error(error) : console.log('Success!'));
