@@ -77,28 +77,47 @@ inquirer
     var badging = licenseImage.get(license);
 
     var fileContents = 
-    `${badging}
-    # ${title}
+    `# ${title} ${badging}
+
     ${description}
+
     ## Table of Contents
-    [Installing/Dependencies] (#installing/dependencies)
-    [Walkthrough/Usage Information] (#installing/dependencies)
-    [Contributing to the README.md Generator] (#contributing-to-the-readme.md-generator)
-    [Test Instructions] (#test-instructions)
-    [Author] (#author)
-    [License] (#license)
+
+    [Installing/Dependencies](#installing/dependencies)
+
+    [Walkthrough/Usage Information](#installing/dependencies)
+
+    [Contributing to the README.md Generator](#contributing-to-the-readme.md-generator)
+
+    [Test Instructions](#test-instructions)
+
+    [Author](#author)
+
+    [License](#license)
+
     ## Installing/Dependencies
+    
     \`\`\`${installation}\`\`\`
+
     ## Walkthrough/Usage Information
+
     ${usage}
+
     ## Contributing to the README.md Generator
+
     ${contribution}
+
     ## Test Instructions
+
     ${test}
+
     ## Author
+
     [${name}](https://github.com/${username}) -- You can reach me anytime for questions or collaboration at ${email}.
+
     ## License
-    This project is licensed under [${license}](LICENSE) - 2020 Laura Baumann`
+
+    This project is licensed under [${license}](LICENSE) - 2020 Laura Baumann`;
 
     fs.writeFile('README.md', fileContents, (error) =>
     error ? console.error(error) : console.log('Success!'));
