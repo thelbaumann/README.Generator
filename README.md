@@ -17,9 +17,9 @@ An application that generates a professional README.md file using the command li
 ## Walkthrough/Usage Information
 Clone and run 'node index.js'
 ## Contributing to the README.md Generator
-Pull requests are welcome! For more information on collaborating, reach out to me using the contact info listed below.
+Pull requests are welcome! Find my contact information below to reach out about more information regarding collaboration.
 ## Test Instructions
-No tests are currently running for this project.
+No tests are running for this application currently
 ## Questions?
 [Laura Baumann](https://github.com/thelbaumann) -- You can reach me anytime for questions or collaboration at l.bmann@yahoo.com.
 ## License
