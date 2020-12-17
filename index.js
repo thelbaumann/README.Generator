@@ -80,11 +80,11 @@ inquirer
 `# ${title} ${badging}
 ${description}
 ## Table of Contents
-[Installing/Dependencies](#installing/dependencies)  
+[Installing/Dependencies](#installingdependencies)  
 
-[Walkthrough/Usage Information](#walkthrough/usage-information)  
+[Walkthrough/Usage Information](#walkthroughusage-information)  
 
-[Contributing to the README.md Generator](#contributing-to-the-readme.md-generator)  
+[Contributing to the README.md Generator](#contributing-to-the-readmemd-generator)  
 
 [Test Instructions](#test-instructions)  
 
