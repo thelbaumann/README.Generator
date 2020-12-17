@@ -88,7 +88,7 @@ ${description}
 
 [Test Instructions](#test-instructions)  
 
-[Author](#author)  
+[Questions?](#questions)  
 
 [License](#license)
 ## Installing/Dependencies
@@ -99,7 +99,7 @@ ${usage}
 ${contribution}
 ## Test Instructions
 ${test}
-## Author
+## Questions?
 [${name}](https://github.com/${username}) -- You can reach me anytime for questions or collaboration at ${email}.
 ## License
 This project is licensed under [${license}](LICENSE) - 2020 Laura Baumann`;

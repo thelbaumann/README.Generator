@@ -1,5 +1,5 @@
 # README.md Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-An application to generate a professional README.md file through the command line and Node.js!
+An application that generates a professional README.md file using the command line and Node.js!
 ## Table of Contents
 [Installing/Dependencies](#installingdependencies)  
 
@@ -9,18 +9,18 @@ An application to generate a professional README.md file through the command lin
 
 [Test Instructions](#test-instructions)  
 
-[Author](#author)  
+[Questions?](#questions)  
 
 [License](#license)
 ## Installing/Dependencies
 ```npm install inquirer```
 ## Walkthrough/Usage Information
-Clone and run 'node index.js;
+Clone and run 'node index.js'
 ## Contributing to the README.md Generator
-Contact me via the information below to learn more about collaboration with me!
+Pull requests are welcome! For more information on collaborating, reach out to me using the contact info listed below.
 ## Test Instructions
-No tests currently running for this project.
-## Author
+No tests are currently running for this project.
+## Questions?
 [Laura Baumann](https://github.com/thelbaumann) -- You can reach me anytime for questions or collaboration at l.bmann@yahoo.com.
 ## License
 This project is licensed under [MIT](LICENSE) - 2020 Laura Baumann
