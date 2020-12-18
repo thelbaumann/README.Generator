@@ -13,31 +13,79 @@ inquirer
         type: "input",
         message: "What is the title of your project?",
         name: "title",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter a project title!"
+            }
+        }
     },
     {
         type: "input",
         message: "What is the description of your project?",
         name: "description",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter a description for your project!"
+            }
+        }
     },
     {
         type: "input",
         message: "What are the installation instructions for your project?",
         name: "installation",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter installation instructions!"
+            }
+        }
     },
     {
         type: "input",
         message: "Is there any usage information for your project?",
         name: "usage",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter usage information for your project!"
+            }
+        }
     },
     {
         type: "input",
         message: "What are the contribution guidelines for your project?",
         name: "contribution",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter contribution guidelines for your project!"
+            }
+        }
     },
     {
         type: "input",
         message: "What are the test instructions for your project?",
         name: "test",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter test instructions for your project!"
+            }
+        }
     },
     {
         type: "list",
@@ -48,17 +96,41 @@ inquirer
     {
         type: "input",
         message: "What is your full name?",
-        name: "name"
+        name: "name",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter your full name!"
+            }
+        }
     },
     {
         type: "input",
         message: "What is your GitHub username?",
-        name: "username"
+        name: "username",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter your GitHub username!"
+            }
+        }
     },
     {
         type: "input",
         message: "What email address is best to reach you for questions about your repository?",
-        name: "email"
+        name: "email",
+        validate: (input) => {
+            if (input !== "") {
+                return true;
+            }
+            else {
+                return "Please enter your preferred contact email!"
+            }
+        }
     }
   ])
   .then((response) => {
