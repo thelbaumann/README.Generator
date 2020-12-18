@@ -56,19 +56,19 @@ THEN I am taken to the corresponding section of the README
 Clone this project, run 'node index.js' in your terminal, and answer the following questions prompted by the terminal based on the project you are building the README.md file for.
 
 ## Walkthrough
-![Opening Screen](https://github.com/thelbaumann/weatherDashboard/blob/main/Assets/screen_1.png)
+![Opening Screen](https://github.com/thelbaumann/README.Generator/blob/main/Assets/Screenshots/screen_1.png)
 
 When you open the project in your code editor, you will find a small amount of files. Some node packages, a license, and a few other standard Node.JS folders/files. There is only one page written with active functions and variables, however, and that is index.js. On this page, you will find the requiring of NPM Inquirer as well as the FileSystem, and a global variable object that equates a key to a value using license names and their respective badges.
 
 Below, you will find the start of the Inquirer prompts. These prompts use command line questions + answers to obtain all the information it needs to generate a professional README.md file for your project. Once these prompts finish, it triggers a "then" function which assigns these responses to variables, and then places these variables in a larger variable's template string. Then, this template string uses the FileSystem to generate and write to a new README.md file with the information it has been given.
 
-![Opening Screen](https://github.com/thelbaumann/weatherDashboard/blob/main/Assets/screen_1.png)
+![Failed Prompt Validation](https://github.com/thelbaumann/README.Generator/blob/main/Assets/Screenshots/validation_failed.png)
 
 If, while a user is answering a question, the user attemps to press enter and skip a question, each prompt (besides the list of licenses prompt) has a validator function that makes sure the user answers each question before moving on.
 
   In future updates of this application, I hope to improve it so that users can dynamically skip categories they wish not to include, and those sections of the file will either be appended or not to the ultimate template file string, allowing this template to be much more configurable.
   
- ![Opening Screen](https://github.com/thelbaumann/weatherDashboard/blob/main/Assets/screen_1.png)
+ ![Answers Passing Validation](https://github.com/thelbaumann/README.Generator/blob/main/Assets/Screenshots/validation_passed.png)
  
  Furthermore, once the user corrects the unanswered question, the validator function within that prompt returns a value of "true" which then allows the application to continue on to the next prompt.
  
@@ -76,7 +76,7 @@ If, while a user is answering a question, the user attemps to press enter and sk
 
 [Application Walkthrough Video](https://drive.google.com/file/d/1mFL84E9Tk846vAx-d_Bk882SNhUbixjL/view?usp=sharing)
 
-The sample README.md file generated in this video resides in the assets folder of this repository and can be found [here]().
+The sample README.md file generated in this video resides in the assets folder of this repository and can be found [here](https://github.com/thelbaumann/README.Generator/blob/main/Assets/sample-README.md).
 
 ## Contributing to the README.md Generator
 Pull requests are welcome! Find my contact information below to reach out about collaborating with me.
